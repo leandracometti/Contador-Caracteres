@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Leandra Cometti">
+    <meta name="descripition" content="Página que apresenta um HTML simples e estilizado com CSS, onde há funções JS para fazer um contador de caracteres.">
+
+    <title>Deixe seu comentário!</title>
+    <link rel="stylesheet" href="src/style.css">
+    
+</head>
+<body>
+  
+    <div class="container">
+        <h1 id="titulo">Deixe seu comentário!</h1>
+
+        <textarea id="js-textarea" class="textarea" cols="30" rows="10" maxlength="150" spellcheck="false"></textarea>
+            <div id="js-caracteres_container" class="caracteres_conatiner">
+                Caracteres disponíveis: <span id="js-caracteres_restantes"></span> / <span id="js-caracteres_totais"></span>
+            </div>
+
+        <button type="submit" id="btnEnviar">Enviar</button>
+    </div>
+    
+ <script src="src/script.js"></script>
+
+</body>
+</html>
+
